@@ -1,0 +1,26 @@
+@import "utilities/_variables.scss";
+
+.footer{
+  background: $color-gris;
+  color: $color-letra;
+  text-align: center;
+  
+  .links{
+    ul {list-style-type: none;}
+      li a{
+        color: $color-letra;
+        transition: color .2s;
+        &:hover{
+          text-decoration:none;
+          color: $color-oscuro;
+        }
+    }
+  }  
+  .slogan{
+    padding-right: 35px;
+  }
+  .location{
+    margin: 0px;
+  }
+  .copyright p{border-top:1px solid $color-letra;} 
+}

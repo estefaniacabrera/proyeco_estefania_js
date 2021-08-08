@@ -1,0 +1,233 @@
+.promos {
+  background-color: #aaaaaa;
+  color: white;
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+  margin-bottom: 1rem;
+  margin-top: 0px;
+  margin-left: 0px; }
+
+.banner {
+  width: 100%; }
+
+a {
+  color: black;
+  text-decoration: none; }
+
+a:hover {
+  background-color: #aaaaaa;
+  border-radius: 10px; }
+
+.productosDestacados {
+  background-color: #aaaaaa;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 100px 1fr 1fr;
+  grid-template-areas: "destacados destacados destacados" "foto1 foto2 foto3" "foto4 foto5 foto6";
+  grid-column-gap: 10px;
+  grid-row-gap: 10px;
+  align-items: center;
+  padding-bottom: 20px;
+  padding-left: 15px;
+  padding-right: 15px; }
+
+.destacados {
+  font-family: "Bree Serif", serif;
+  color: white;
+  font-size: 50px;
+  grid-area: destacados;
+  text-align: center; }
+
+.foto1, .foto2, .foto3, .foto4, .foto5, .foto6 {
+  border-radius: 20px;
+  width: 100%;
+  height: auto;
+  grid-area: foto1; }
+
+.foto2 {
+  grid-area: foto2; }
+
+.foto3 {
+  grid-area: foto3; }
+
+.foto4 {
+  grid-area: foto4; }
+
+.foto5 {
+  grid-area: foto5; }
+
+.foto6 {
+  grid-area: foto6; }
+
+.categorias_productos {
+  margin-bottom: 70px;
+  margin-top: 60px;
+  width: 100%; }
+
+.categorias {
+  font-family: "Bree Serif", serif;
+  color: black;
+  font-size: 50px;
+  text-align: center; }
+
+.seccion2 {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-around;
+  width: 100%; }
+
+.iconos {
+  height: 150px;
+  width: 150px; }
+
+.iconos:hover {
+  transform: scale(1.5, 1.5); }
+
+.tituloPrincipal {
+  color: black;
+  background-color: white;
+  text-align: center;
+  font-family: "Libre Franklin", sans-serif;
+  font-size: 50px;
+  margin-top: 50px;
+  margin-bottom: 50px; }
+
+.col {
+  margin-bottom: 50px; }
+
+.cartas {
+  margin-left: 50px;
+  margin-right: 50px; }
+
+.titulos {
+  text-align: center;
+  color: black;
+  font-family: "Poppins", sans-serif;
+  font-size: 30px;
+  text-transform: uppercase; }
+
+.parrafo {
+  text-align: center;
+  color: black;
+  font-family: "Libre Franklin", sans-serif;
+  margin-left: 100px;
+  margin-right: 100px; }
+
+.footer {
+  background: #aaaaaa;
+  color: white;
+  text-align: center; }
+  .footer .links ul {
+    list-style-type: none; }
+  .footer .links li a {
+    color: white;
+    transition: color .2s; }
+    .footer .links li a:hover {
+      text-decoration: none;
+      color: black; }
+  .footer .slogan {
+    padding-right: 35px; }
+  .footer .location {
+    margin: 0px; }
+  .footer .copyright p {
+    border-top: 1px solid white; }
+
+.error {
+  color: black;
+  font-size: 25px;
+  font-family: "Libre Franklin", sans-serif;
+  text-align: center; }
+
+@media only screen and (max-width: 992px) {
+  .promos {
+    font-size: 17px;
+    margin-bottom: 8px; }
+  .header1 {
+    margin-bottom: 8px; }
+  .tituloPrincipal {
+    font-size: 35px; }
+  .destacados {
+    font-size: 40px; }
+  .categorias {
+    font-size: 35px; }
+  .titulos {
+    font-size: 25px; }
+  .parrafo {
+    margin-left: 50px;
+    margin-right: 50px; }
+  .iconos {
+    width: 100px;
+    height: 100px; } }
+
+@media only screen and (max-width: 768px) {
+  .promos {
+    font-size: 16px; } }
+
+@media only screen and (max-width: 576px) {
+  .promos {
+    font-size: 14px;
+    margin-bottom: 5px; }
+  .header1 {
+    margin-bottom: 5px; }
+  .tituloPrincipal {
+    font-size: 30px; }
+  .titulos {
+    font-size: 20px; }
+  .destacados {
+    font-size: 30px; }
+  .parrafo {
+    margin-left: 40px;
+    margin-right: 40px;
+    font-size: 15px; }
+  .productosDestacados {
+    grid-template-rows: 70px 1fr 1fr; }
+  .categorias {
+    font-size: 25px; }
+  .iconos {
+    width: 60px;
+    height: 60px; }
+  .footer .slogan {
+    padding-right: 0px; }
+  .direccion {
+    padding-top: 30px; }
+  .location-contacto {
+    margin-top: 20px; }
+  footer {
+    font-size: 13px; }
+  .error {
+    font-size: 20px; } }
+
+@media only screen and (max-width: 320px) {
+  .promos {
+    font-size: 13px;
+    margin-bottom: 3px; }
+  .header1 {
+    margin-bottom: 3px; }
+  .tituloPrincipal {
+    font-size: 25px; }
+  .titulos {
+    font-size: 15px; }
+  .destacados {
+    font-size: 20px; }
+  .productosDestacados {
+    grid-template-rows: 40px 1fr 1fr; }
+  .categorias {
+    font-size: 20px; }
+  .parraafo {
+    margin-left: 25px;
+    margin-right: 25px;
+    font-size: 12px; }
+  .iconos {
+    width: 45px;
+    height: 45px; }
+  .footer .slogan {
+    padding-right: 0px; }
+  .direccion {
+    padding-top: 30px; }
+  .location-contacto {
+    margin-top: 15px; }
+  footer {
+    font-size: 10px; }
+  .error {
+    font-size: 15px; } }

@@ -1,0 +1,16 @@
+@import "utilities/_variables.scss";
+
+.titulos {
+    text-align: center;
+    color: $color-oscuro;
+    font-family: $letra-encabezado;
+    font-size: 30px;
+    text-transform: uppercase;
+  }
+  .parrafo {
+    text-align: center;
+    color: $color-oscuro;
+    font-family: $letras-parrafos;
+    margin-left: 100px;
+    margin-right: 100px;
+  }
