@@ -84,6 +84,23 @@
         <h1 class="tituloPrincipal animate__animated animate__slideInLeft">Productos</h1>
     </div>
     <!--Fin Título-->
+    <p class="compraCarrito">Que deseas comprar?
+        <br>
+        <select id="select" name="carrito-compras">
+            <option value="0">Seleccione un producto</option>
+            <option value="1">Driver Taylormade Sim</option>
+            <option value="2">Wedge Titleist SM8</option>
+            <option value="3">Putter Taylormade Spider FCG</option>
+            <option value="4">Set Hierros Taylor Made M2</option>
+            <option value="5">Set De Hierros Taylor Made Sim Max Os</option>
+            <option value="6">Bolsa Titleist Players 4 Plus</option>
+        </select>
+        <input type="button" value="Agregar al Carrito" id="boton-compra">
+    <p id="mostrarCarrito"></p>
+    </p>
+    <div class="productosCarrito">
+
+    </div>
     <!--Inicio Cards Primera Fila-->
     <div class="row row-cols-1 row-cols-md-3 g-4 cartas">
         <div class="col">
@@ -92,7 +109,6 @@
                 <div class="card-body">
                     <h5 class="card-title">Driver Taylormade Sim 2</h5>
                     <p class="card-text">$87,990.00</p>
-                    <a href="#" class="btn btn-primary">Comprar</a>
                 </div>
             </div>
         </div>
@@ -102,7 +118,6 @@
                 <div class="card-body">
                     <h5 class="card-title">Wedge Titleist SM8</h5>
                     <p class="card-text">$24,150.00</p>
-                    <a href="#" class="btn btn-primary">Comprar</a>
                 </div>
             </div>
         </div>
@@ -112,7 +127,6 @@
                 <div class="card-body">
                     <h5 class="card-title">Putter Taylormade Spider FCG</h5>
                     <p class="card-text">$45,900.00</p>
-                    <a href="#" class="btn btn-primary">Comprar</a>
                 </div>
             </div>
         </div>
@@ -126,7 +140,6 @@
                 <div class="card-body">
                     <h5 class="card-title">Set Hierros Taylor Made M2</h5>
                     <p class="card-text">$130,830.00</p>
-                    <a href="#" class="btn btn-primary">Comprar</a>
                 </div>
             </div>
         </div>
@@ -136,7 +149,6 @@
                 <div class="card-body">
                     <h5 class="card-title">Set De Hierros Taylor Made Sim Max Os</h5>
                     <p class="card-text">$179,850.00</p>
-                    <a href="#" class="btn btn-primary">Comprar</a>
                 </div>
             </div>
         </div>
@@ -146,45 +158,10 @@
                 <div class="card-body">
                     <h5 class="card-title">Bolsa Titleist Players 4 Plus</h5>
                     <p class="card-text">$44,000.00</p>
-                    <a href="#" class="btn btn-primary">Comprar</a>
                 </div>
             </div>
         </div>
     </div>
-    <!--Inicio Cards Tercera Linea-->
-    <div class="row row-cols-1 row-cols-md-3 g-4 cartas">
-        <div class="col">
-            <div class="card text-center border border-2">
-                <img src="imagenes/Cards/pelotas_prov1.png" class="card-img-top" alt="Tubo de Pelotas Titleist Pro V1x">
-                <div class="card-body">
-                    <h5 class="card-title">Pelotas Titleist Pro V1x Tubo X 3</h5>
-                    <p class="card-text">$1,965.00</p>
-                    <a href="#" class="btn btn-primary">Comprar</a>
-                </div>
-            </div>
-        </div>
-        <div class="col">
-            <div class="card text-center border border-2">
-                <img src="imagenes/guante_golf.png" class="card-img-top" alt="Guante golf Callaway">
-                <div class="card-body">
-                    <h5 class="card-title">Guante Callaway Weather Spann</h5>
-                    <p class="card-text">$2,257.00</p>
-                    <a href="#" class="btn btn-primary">Comprar</a>
-                </div>
-            </div>
-        </div>
-        <div class="col">
-            <div class="card text-center border border-2">
-                <img src="imagenes/bolsa_golf.png" class="card-img-top" alt="Bolsa Callaway Epic">
-                <div class="card-body">
-                    <h5 class="card-title">Bolsa Callaway Epic</h5>
-                    <p class="card-text">$52,000.00</p>
-                    <a href="#" class="btn btn-primary">Comprar</a>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!--Fin Cards Tercera Linea-->
     <!--Inicio Footer -->
     <div class="mt-5 pt-5 pb-5 footer">
         <div class="container">
@@ -220,6 +197,8 @@
     </div>
     <!--Fin Footer -->
     <script src="js/app.js"></script>
+
+
     <!-- JavaScript Bundle with Popper -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"

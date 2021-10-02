@@ -16,4 +16,18 @@
     margin-left: 50px;
     margin-right: 50px;
   }
-  
+
+.carrito{
+  text-align: center;
+  font-weight: bold;
+  background-color: $color-letra;
+  color: red;
+  padding-top: 15px;
+  padding-right: 20px;
+}
+.compraCarrito{
+  text-align: center;
+  font-size: large;
+  color: $color-oscuro;
+  font-family: "Libre Franklin", sans-serif;
+}

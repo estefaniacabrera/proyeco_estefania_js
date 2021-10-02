@@ -23,7 +23,9 @@ a:hover {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-rows: 100px 1fr 1fr;
-  grid-template-areas: "destacados destacados destacados" "foto1 foto2 foto3" "foto4 foto5 foto6";
+  grid-template-areas: "destacados destacados destacados"
+ "foto1 foto2 foto3"
+ "foto4 foto5 foto6";
   grid-column-gap: 10px;
   grid-row-gap: 10px;
   align-items: center;
@@ -99,6 +101,21 @@ a:hover {
 .cartas {
   margin-left: 50px;
   margin-right: 50px; }
+
+.carrito {
+  text-align: center;
+  font-weight: bold;
+  background-color: white;
+  color: red;
+  padding-top: 15px;
+  padding-right: 20px; }
+
+.compraCarrito {
+  text-align: center;
+  font-size: large;
+  color: black;
+  font-family: "Libre Franklin", sans-serif; }
+
 
 .titulos {
   text-align: center;
